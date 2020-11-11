@@ -1,0 +1,29 @@
+@use 'sass:color';
+@import 'mixins';
+
+$primary-color: #4F6BFF;
+
+$text-color-code: #BA533C;
+$text-color-dark: #3F4A56;
+
+$main-font-family: 'Inter', sans-serif;
+$code-font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+
+
+@mixin color-primary-on-hover {
+  @include hover-transition;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+@mixin link-styles {
+  color: $text-color-dark;
+  text-decoration: underline;
+
+  @include color-primary-on-hover;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

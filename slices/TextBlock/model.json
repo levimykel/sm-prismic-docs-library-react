@@ -1,0 +1,28 @@
+{
+  "id": "text_block",
+  "type": "SharedSlice",
+  "name": "TextBlock",
+  "description": "TextBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextBlock",
+      "primary": {
+        "content": {
+          "config": {
+            "label": "Content",
+            "placeholder": "Enter your text...",
+            "allowTargetBlank": true,
+            "labels" : [ "codespan" ],
+            "multi" : "paragraph, preformatted, heading2, heading3, strong, em, hyperlink, list-item, o-list-item"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

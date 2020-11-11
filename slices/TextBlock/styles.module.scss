@@ -1,0 +1,13 @@
+@import '../../styles/theme.scss';
+
+$header2-color: $primary-color; // styles/theme.scss
+
+.richText {
+  h2 {
+    color: $header2-color;
+  }
+
+  & > pre {
+    @include pre-wrap;
+  }
+}

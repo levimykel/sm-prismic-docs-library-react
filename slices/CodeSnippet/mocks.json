@@ -1,0 +1,16 @@
+[{
+  "id": "default-slice",
+  "name": "Default slice",
+  "docURL": "...",
+  "version": "sktwi1xtmkfgx8626",
+  "description": "CodeSnippet",
+  "primary": {
+    "snippet": [{
+      "type": "preformatted",
+      "text": "// To retrieve the API object check how to query the API\napi.query(\n  Prismic.Predicates.at('my.post.switch', true),\n  { orderings : '[my.post.title]' }\n).then(function(response) {\n  // response is the response object, response.results holds the documents\n});",
+      "spans": []
+    }]
+  },
+  "items": [],
+  "slice_type": "code_snippet"
+}]

@@ -1,0 +1,27 @@
+{
+  "id": "code_snippet",
+  "type": "SharedSlice",
+  "name": "CodeSnippet",
+  "description": "CodeSnippet",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CodeSnippet",
+      "primary": {
+        "snippet": {
+          "config": {
+            "label": "Snippet",
+            "placeholder": "Add your code snippet...",
+            "allowTargetBlank": true,
+            "multi": "preformatted"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@import '../../styles/theme';
+
+$snippet-text-color: #ffffff;
+$snippet-padding: 20px;
+
+.codeSnippet {
+  margin: 20px 0;
+
+  .snippetWrapper {
+    position: relative;
+  }
+
+  pre {
+    padding: $snippet-padding;
+    padding-bottom: 0;
+    
+    font-family: $code-font-family;
+    font-size: 12px;
+    line-height: 170%;
+    font-weight: normal;
+    font-style: normal;
+    color: $snippet-text-color;
+    
+    background: #262629;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+
+    overflow: auto;
+  }
+
+  code {
+    display: block;
+    padding-right: 45px;
+    padding-bottom: $snippet-padding;
+    overflow-x: auto;
+  }
+}
+
+.copyButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 10px 8px;
+
+  font-family: $main-font-family;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: $snippet-text-color;
+
+  background: #464648;
+  border-radius: 2px;
+  cursor: pointer;
+}

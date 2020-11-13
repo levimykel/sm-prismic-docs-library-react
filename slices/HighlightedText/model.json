@@ -1,0 +1,45 @@
+{
+  "id": "highlighted_text",
+  "type": "SharedSlice",
+  "name": "HighlightedText",
+  "description": "HighlightedText",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HighlightedText",
+      "primary": {
+        "highlightStyle": {
+          "config": {
+            "label": "Highlight Style",
+            "placeholder": "",
+            "default_value": "Highlight",
+            "options": [
+              "Highlight",
+              "Warning",
+              "Danger"
+            ]
+          },
+          "type": "Select"
+        },
+        "content": {
+          "config": {
+            "label": "Content",
+            "placeholder": "Enter your content...",
+            "allowTargetBlank": true,
+            "multi": "paragraph, preformatted, heading4, strong, em, hyperlink, list-item, o-list-item",
+            "labels" : {
+              "" : [ {
+                "name" : "codespan"
+              } ]
+            }
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

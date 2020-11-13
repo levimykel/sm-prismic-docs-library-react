@@ -1,0 +1,64 @@
+@import '../../styles/theme';
+
+.highlightedText {
+  margin: 40px 0;
+  padding: 20px;
+  border-left: 5px solid #FBF1D9;
+  background: #FFFAED;
+
+  &.highlight {
+    border-color: #D9EBFB;
+    background: #EDF6FF;
+  }
+
+  &.warning {
+    border-color: #FBF1D9;
+    background: #FFFAED;
+  }
+
+  &.danger {
+    border-color: #FBD9D9;
+    background: #FFEDED;
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    font-style: normal;
+    color: $title-color-dark;
+  }
+
+  ul {
+    margin: 20px 0;
+    padding-left: 0;
+    list-style: none;
+    
+    li {
+      padding-left: 18px;
+      color: #3F4A56;
+
+      &::before {
+        content: "\2022";
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-size: 18px;
+        line-height: 14px;
+        font-weight: bold;
+        color: #000000;
+        opacity: 0.2;
+      }
+
+      a {
+        @include link-styles;
+      }
+    }
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}

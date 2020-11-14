@@ -1,0 +1,61 @@
+@import '../../styles/theme';
+
+$border-styles: 1px solid #E6E6E6;
+
+.tableWrapper {
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-width: min-content;
+  border: $border-styles;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  border-bottom: $border-styles;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.column {
+  box-sizing: border-box;
+  padding: 20px;
+
+  :last-child {
+    margin-bottom: 0;
+  }
+
+  pre {
+    @include pre-wrap;      
+  }
+}
+
+.column1 {
+  background: $highlighted-background-color;
+  border-right: $border-styles;
+
+  p, pre {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+
+.column2 {
+  p, pre {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-style: normal;
+  }
+}

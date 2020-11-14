@@ -1,0 +1,36 @@
+{
+  "id": "info_table",
+  "type": "SharedSlice",
+  "name": "InfoTable",
+  "description": "InfoTable",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "InfoTable",
+      "primary": {},
+      "items": {
+        "column1": {
+          "config": {
+            "label": "Column 1",
+            "placeholder": "Enter your content...",
+            "allowTargetBlank": true,
+            "multi": "paragraph, preformatted, strong, em, hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "column2": {
+          "config": {
+            "label": "Column 2",
+            "placeholder": "Enter your content...",
+            "allowTargetBlank": true,
+            "multi": "paragraph, preformatted, strong, em, hyperlink"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

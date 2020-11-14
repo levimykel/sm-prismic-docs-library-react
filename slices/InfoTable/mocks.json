@@ -1,0 +1,146 @@
+[{
+  "id": "default-slice",
+  "name": "Default slice",
+  "docURL": "...",
+  "version": "sktwi1xtmkfgx8626",
+  "description": "InfoTable",
+  "primary": {},
+  "items": [
+    {
+      "column1": [
+        {
+          "type": "paragraph",
+          "text": "path",
+          "spans": []
+        },
+        {
+          "type": "preformatted",
+          "text": "accepted paths",
+          "spans": [
+            {
+              "start": 0,
+              "end": 14,
+              "type": "label",
+              "data": {
+                "label": "highlight"
+              }
+            }
+          ]
+        }
+      ],
+      "column2": [
+        {
+          "type": "paragraph",
+          "text": "document.type",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "document.tags",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "document.id",
+          "spans": []
+        },
+        {
+          "type": "preformatted",
+          "text": "my.{custom-type}.{field}",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "column1": [
+        {
+          "type": "paragraph",
+          "text": "value",
+          "spans": []
+        },
+        {
+          "type": "preformatted",
+          "text": "accepted values",
+          "spans": [
+            {
+              "start": 0,
+              "end": 15,
+              "type": "label",
+              "data": {
+                "label": "highlight"
+              }
+            }
+          ]
+        }
+      ],
+      "column2": [
+        {
+          "type": "paragraph",
+          "text": "single value (for all but document.tags)",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "array of values (only for document.tags)",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "column1": [
+        {
+          "type": "paragraph",
+          "text": "my.{custom-type}.{field}",
+          "spans": []
+        },
+        {
+          "type": "preformatted",
+          "text": "accepted fields",
+          "spans": [
+            {
+              "start": 0,
+              "end": 15,
+              "type": "label",
+              "data": {
+                "label": "highlight"
+              }
+            }
+          ]
+        }
+      ],
+      "column2": [
+        {
+          "type": "paragraph",
+          "text": "UID",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Key text",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Select",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Number",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Date",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Boolean",
+          "spans": []
+        }
+      ]
+    }
+  ],
+  "slice_type": "info_table"
+}]

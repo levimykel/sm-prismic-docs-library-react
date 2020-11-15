@@ -1,0 +1,19 @@
+@import '../../styles/theme';
+
+.imageWithCaption {
+  margin: 40px auto;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    color: $color-muted-gray;
+  }
+}

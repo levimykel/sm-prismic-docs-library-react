@@ -1,0 +1,17 @@
+{
+  "id": "horizontal_line",
+  "type": "SharedSlice",
+  "name": "HorizontalLine",
+  "description": "HorizontalLine",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HorizontalLine",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

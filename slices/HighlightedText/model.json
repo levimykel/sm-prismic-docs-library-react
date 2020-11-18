@@ -30,11 +30,7 @@
             "placeholder": "Enter your content...",
             "allowTargetBlank": true,
             "multi": "paragraph, preformatted, heading4, strong, em, hyperlink, list-item, o-list-item",
-            "labels" : {
-              "" : [ {
-                "name" : "codespan"
-              } ]
-            }
+            "labels" : [ "codespan" ]
           },
           "type": "StructuredText"
         }

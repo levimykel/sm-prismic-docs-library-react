@@ -13,7 +13,9 @@ export default class extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro&display=swap" />
+        </Head>
         <body>
           <Main />
           <NextScript />

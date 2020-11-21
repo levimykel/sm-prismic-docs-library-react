@@ -30,20 +30,22 @@ Start by downloading the project and opening a terminal at the root of the proje
 npm install
 ```
 
-### Launching the Slice Builder
+### Launching the Storybook slice documentation
 
-To launch the Slice Builder you need to run 2 terminals: one for Storybook, one for the Slice Builder itself.
+To launch the Storybook slice documentation, run the following command.
 
 ```bash
-# On a first terminal
 npm run storybook
-
-# On the second terminal
-npm run slicemachine
 ```
 
-This will launch Storybook on port `8888` and the Slice Builder on port `9999`, you can open a third terminal to create slices from or launch other commands...
+This will launch Storybook on port `8888`.
 
-> ⚠ Storybook is known for being quite picky with its dependencies. If you experience a blank page when running it with a lot of errors in the browser console try deleting your lock file and installing dependencies again, should fix the issue.
+### Launching the Project to see a test page
 
-For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://www.slicemachine.dev/documentation/slice-builder#using-the-slice-builder).
+To launch the site and see a demo page, run the following command.
+
+```bash
+npm run next:dev
+```
+
+This will launch the site on port `3000`. To see an example test page go to [localhost:3000/test-page](http://localhost:3000/test-page).

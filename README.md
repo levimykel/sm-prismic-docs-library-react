@@ -48,4 +48,4 @@ To launch the site and see a demo page, run the following command.
 npm run next:dev
 ```
 
-This will launch the site on port `3000`. To see an example test page go to [localhost:3000/test-page](http://localhost:3000/test-page).
+This will launch the site on port `3000` and display an example page.

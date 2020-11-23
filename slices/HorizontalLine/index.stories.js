@@ -1,6 +1,6 @@
 import Component from './';
 import model from './model';
-import mocks from './mocks.json';
+import mocks from './customMocks.json';
 import { storiesOf } from '@storybook/react';
 
 mocks.forEach((variation) => {

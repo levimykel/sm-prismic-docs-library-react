@@ -10,7 +10,18 @@
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
       "description": "HorizontalLine",
-      "primary": {},
+      "primary": {
+        "isHalfWidth": {
+          "config": {
+            "label": "Width",
+            "placeholder": "",
+            "placeholder_false": "Full",
+            "placeholder_true": "Half",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
       "items": {}
     }
   ]

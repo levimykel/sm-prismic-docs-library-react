@@ -1,10 +1,1 @@
-[{
-  "id": "default-slice",
-  "name": "Default slice",
-  "docURL": "...",
-  "version": "sktwi1xtmkfgx8626",
-  "description": "HorizontalLine",
-  "primary": {},
-  "items": [],
-  "slice_type": "horizontal_line"
-}]
+[{"id":"default-slice","name":"Default slice","docURL":"...","version":"sktwi1xtmkfgx8626","description":"HorizontalLine","primary":{"isHalfWidth":true},"items":[],"slice_type":"horizontal_line"}]

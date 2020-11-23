@@ -1,0 +1,23 @@
+[{
+  "id": "default-slice",
+  "name": "Default slice",
+  "docURL": "...",
+  "version": "sktwi1xtmkfgx8626",
+  "description": "HorizontalLine",
+  "primary": {
+    "isHalfWidth": false
+  },
+  "items": [],
+  "slice_type": "horizontal_line"
+},{
+  "id": "half-width",
+  "name": "Half Width",
+  "docURL": "...",
+  "version": "sktwi1xtmkfgx8626",
+  "description": "HorizontalLine",
+  "primary": {
+    "isHalfWidth": true
+  },
+  "items": [],
+  "slice_type": "horizontal_line"
+}]
